@@ -14,6 +14,10 @@ Also included is a **Stencil for HTML** language that supports both Stencil and 
 
 ![Stencil for HTML syntax highlighting](images/stencil-html.png)
 
+And there is **Stencil for Swift** language that supports both Stencil and Swift:
+
+![Stencil for Swift syntax highlighting](images/stencil-swift.png)
+
 ### Snippets
 
 Snippets are included for all common tags:
@@ -60,6 +64,7 @@ This extension is set up to use the following file extensions:
 
 - `.stencil`: Stencil templates.
 - `.html.stencil`: Stencil for HTML templates.
+- `.swift.stencil`: Stencil for Swift templates.
 
 If you use Stencil exclusively for HTML and would like to use the `.stencil` extension for Stencil for HTML instead, add the following to your Visual Studio Code preferences:
 
@@ -68,6 +73,15 @@ If you use Stencil exclusively for HTML and would like to use the `.stencil` ext
     "*.stencil": "stencil-html"
 }
 ```
+
+If you keep all you Stencil for Swift templates within a single folder called `Templates`, add the following to your Visual Studio Code preferences:
+
+```
+"files.associations": {
+    "Templates/*.stencil": "stencil-swift"
+}
+```
+
 
 ## Known Issues
 

@@ -36,6 +36,11 @@
             "aliases": ["Stencil for HTML"],
             "extensions": [".html.stencil"],
             "configuration": "stencil-html-language-configuration.json"
+        }, {
+            "id": "stencil-swift",
+            "aliases": ["Stencil for Swift"],
+            "extensions": [".swift.stencil"],
+            "configuration": "stencil-swift-language-configuration.json"
         }],
         "grammars": [{
             "language": "stencil",
@@ -45,6 +50,10 @@
             "language": "stencil-html",
             "scopeName": "text.html.stencil",
             "path": "syntaxes/stencil-html.tmLanguage"
+        }, {
+            "language": "stencil-swift",
+            "scopeName": "source.swift.stencil",
+            "path": "syntaxes/stencil-swift.tmLanguage"
         }],
         "snippets": [{
             "language": "stencil",

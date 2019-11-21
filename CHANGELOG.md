@@ -13,3 +13,8 @@
 ## [1.0.1] - 2018-08-01
 
 This extension is now part of the Stencil project. The README and links have been updated accordingly.
+
+## [1.1.0] - 2018-08-01
+
+### Added
+- Stencil for Swift language support.
